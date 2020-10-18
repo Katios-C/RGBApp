@@ -79,7 +79,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLUE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bq2-x3-X3D">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BLUE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bq2-x3-X3D" userLabel="Blue Percent">
                                 <rect key="frame" x="274" y="286" width="70" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="T4P-hJ-HGO"/>
@@ -122,11 +122,15 @@
                     </view>
                     <connections>
                         <outlet property="blue" destination="9Kc-ie-Kof" id="O0E-tM-Exz"/>
+                        <outlet property="bluePercent" destination="bq2-x3-X3D" id="JrV-br-dPe"/>
                         <outlet property="bluePersent" destination="bq2-x3-X3D" id="loY-Xs-7wK"/>
+                        <outlet property="blueSlider" destination="9Kc-ie-Kof" id="oaA-K0-knQ"/>
                         <outlet property="green" destination="mnE-ha-jIE" id="69F-yw-QB2"/>
                         <outlet property="greenPercent" destination="u6N-wg-H9A" id="vpd-0w-6br"/>
+                        <outlet property="greenSlider" destination="mnE-ha-jIE" id="VIX-2A-huh"/>
                         <outlet property="redGreen" destination="jH1-1J-cjg" id="wIE-wi-TJa"/>
                         <outlet property="redPercent" destination="dnv-i0-3sv" id="MFL-lU-AD6"/>
+                        <outlet property="redSlider" destination="jH1-1J-cjg" id="Spq-PS-ooP"/>
                         <outlet property="windowForColor" destination="vsG-7j-pqN" id="4MM-BO-wHj"/>
                     </connections>
                 </viewController>
